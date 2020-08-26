@@ -43,9 +43,9 @@ class Solution:
         #if the length of the original input is greater than the lenght of the set:
             ## There are duplicates
             
-        unique_set = set()
-        for element in nums:
-            unique_set.add(element)
+        unique_set = set(nums)
+        # for element in nums:
+        #     unique_set.add(element)
         #print(unique_set)
         
         if len(unique_set) < len(nums):
